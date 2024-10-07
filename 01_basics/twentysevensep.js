@@ -4,5 +4,5 @@ let anotherid=Symbol('123');
 //const testfunction = function(){console.log("hello world")}
 //console.log(function(){});
 const url = 'https://yogesh%20gaikwad%20portfolio';
-console.log(url.replace(/%20/g,"_"));
+console.log(url.replace(/%20/g,"_"));//here /g is a global expression one of many expressions available in javascript
 

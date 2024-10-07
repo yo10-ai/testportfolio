@@ -3,6 +3,9 @@
 // const example = new Number(450);
 // console.log(example.toString());
 // console.log(typeof(example.toString()));
-const number =10000000;
+// const number =10000000;
 // console.log(number.toLocaleString('en-IN'));
-console.log(Math.Max(1,2,3));
+// console.log(Math.Max(1,2,3));
+const min=10; const max=20;
+// console.log(Math.floor(Math.random()*(max-min+1))+min);
+console.log(Math.floor(3.96));

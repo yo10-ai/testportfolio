@@ -1,0 +1,7 @@
+(function calling(){
+    console.log('yogesh')    //this is also called as 'named IIFE'
+})();
+
+((name)=>{
+    console.log(`Hello there ${name}!`)
+})('adarsh');

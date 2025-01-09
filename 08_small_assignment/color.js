@@ -15,7 +15,8 @@ function changeBgColor(){document.body.style.backgroundColor=randomColor()}
 let clickstartbutton = document.querySelector('#button1').addEventListener('click',startchangingcolor)
 
 document.querySelector('#button2').addEventListener('click',function stopchangingcolor(){
-  clearInterval(randomvar)
+  clearInterval(randomvar);
+  document.body.style.backgroundColor='white';
 })
 
 
